@@ -77,7 +77,7 @@ namespace Business.Concrete
         private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
         {
             List<Product> kactane = _productDal.GetAll(p => p.CategoryId == categoryId);
-            if (kactane.Count > 50)
+            if (kactane.Count > 15)
             {
                 return new ErrorResult(Messages.CategoryCountError);
             }
