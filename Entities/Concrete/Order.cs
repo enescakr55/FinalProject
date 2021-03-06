@@ -13,7 +13,5 @@ namespace Entities.Concrete
         public DateTime OrderDate { get; set; }
         public string ShipCity { get; set; }
 
-
-
     }
 }

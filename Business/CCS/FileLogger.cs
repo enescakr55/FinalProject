@@ -8,14 +8,8 @@ namespace Business.CCS
     {
         public void Log()
         {
-            Console.WriteLine("Dosyaya Loglandı");
+            Console.WriteLine("Dosyaya loglandı");
         }
     }
-    public class DatabaseLogger : ILogger
-    {
-        public void Log()
-        {
-            Console.WriteLine("Veritabanına Loglandı");
-        }
-    }
+
 }
